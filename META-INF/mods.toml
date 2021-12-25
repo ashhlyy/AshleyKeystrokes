@@ -1,0 +1,29 @@
+modLoader="javafml" #mandatory
+loaderVersion="[36,)"
+license="All rights reserved"
+modId="ashley"
+
+version="${file.jarVersion}"
+
+displayName="Flop"
+
+authors="ashley."
+
+description='''
+Keystrokes mod for 1.16.5
+'''
+
+[[dependencies.flop]]
+   modId="forge"
+   mandatory=true
+   versionRange="[36,)"
+   ordering="NONE"
+
+   side="BOTH"
+
+[[dependencies.flop]]
+   modId="minecraft"
+   mandatory=true
+   versionRange="[1.16.5,1.17)"
+   ordering="NONE"
+   side="BOTH"
